@@ -5,28 +5,24 @@ import Link from 'next/link'
 
 const books = [
   {
-    coverImage: '/dopamine-nation.png',
     link: '/books/dopaminenation',
     title: "Dopamine Nation",
     author: "Anna Lembke, MD",
     description: "A groundbreaking exploration of the connection between addiction, depression, and the brain's ability to find pleasure in everyday life."
   },
   {
-    coverImage: '/hiddenPotential.png',
     link: '/books/hiddenpotential',
     title: "Hidden Potential",
     author: "Adam Grant",
     description: "A guide to unlocking the potential of introverts, showing how they can thrive in a world that often favors extroverts."
   },
   {
-    coverImage: '/TheCourageToBeDisliked.avif',
     link: '/books/thecouragetobedisliked',
     title: "The Courage to be Disliked",
     author: "Ichiro Kishimi and Fumitake Koga",
     description: "A Japanese philosophy book that offers a new perspective on life and relationships, based on the teachings of Alfred Adler."
   },
   {
-    coverImage: '/thelegacyjourney.jpg',
     link: '/books/thelegacyjourney',
     title: "The Legacy Journey",
     author: "Dave Ramsey",

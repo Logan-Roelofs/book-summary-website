@@ -1,5 +1,4 @@
-import Image from 'next/image'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardDescription, CardTitle } from "@/components/ui/card"
 
 interface BookCardProps {
   coverImage: string
@@ -8,7 +7,7 @@ interface BookCardProps {
   author: string
 }
 
-export function BookCard({ coverImage, title, description, author }: BookCardProps) {
+export function BookCard({ title, description, author }: BookCardProps) {
   return (
     <Card className="w-full max-w-sm mx-auto">
       <CardContent className="p-4">

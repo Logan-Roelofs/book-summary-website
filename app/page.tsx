@@ -39,7 +39,7 @@ export default function Home() {
     <div className="grid grid-rows-[auto_1fr_auto] items-center justify-items-center min-h-screen p-8 pb-20 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center">
         <h2 className="text-4xl font-bold text-center mt-4 sm:mt-0">
-          Logan's{" "}
+          Logans{" "}
           <span className="text-[#0070f3]">Knowledge Base</span>
         </h2>
         <div className="container mx-auto py-8">

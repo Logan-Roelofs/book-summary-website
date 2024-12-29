@@ -1,7 +1,6 @@
 import { Card, CardContent, CardDescription, CardTitle } from "@/components/ui/card"
 
 interface BookCardProps {
-  coverImage: string
   title: string
   description: string
   author: string

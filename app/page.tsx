@@ -36,7 +36,7 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center">
         <h2 className="text-4xl font-bold text-center mt-4 sm:mt-0">
           Logans{" "}
-          <span className="text-[#0070f3]">Knowledge Base</span>
+          <span className="text-[#0070f3]">KB</span>
         </h2>
         <div className="container mx-auto py-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

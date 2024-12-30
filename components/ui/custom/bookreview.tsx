@@ -53,14 +53,14 @@ export default function BookReview({ title, author, chapters = [] }: BookReviewP
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-700 ">{chapter.summary}</p>
+                  <p className="text-gray-300 ">{chapter.summary}</p>
                 </CardContent>
               </Card>
             ))
           ) : (
             <Card className="border-none">
               <CardContent>
-                <p className="text-gray-700">No chapters found.</p>
+                <p className="text-gray-300">No chapters found.</p>
               </CardContent>
             </Card>
           )}

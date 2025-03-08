@@ -15,8 +15,8 @@ interface BookReviewProps {
 
 export default function BookReview({ title, author, chapters = [] }: BookReviewProps) {
   return (
-    <div className=" mx-auto max-w-6xl items-center justify-between md:px-6 p-2">
-      <div className="flex flex-col md:flex-row gap-8">
+    <div className="mx-auto max-w-6xl items-center justify-between md:px-6 p-2">
+      <div className="flex flex-col gap-8">
         {/* Sidebar with navigation */}
         <Card className="border-none">
           <CardHeader>
@@ -41,9 +41,8 @@ export default function BookReview({ title, author, chapters = [] }: BookReviewP
           </CardContent>
         </Card>
 
-
         {/* Main content */}
-        <main className="w-full md:w-3/4">
+        <main className="w-full flex flex-col gap-4">
           {chapters.length > 0 ? (
             chapters.map((chapter) => (
               <Card key={chapter.number} className="border-none">
@@ -53,7 +52,7 @@ export default function BookReview({ title, author, chapters = [] }: BookReviewP
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-300 ">{chapter.summary}</p>
+                  <p className="text-gray-300">{chapter.summary}</p>
                 </CardContent>
               </Card>
             ))

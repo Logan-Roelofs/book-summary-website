@@ -52,7 +52,14 @@ export default function BookReview({ title, author, chapters = [] }: BookReviewP
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-300">{chapter.summary}</p>
+                  <p className="text-gray-300">
+                    {chapter.summary.split('\n').map((line, idx) => (
+                      <span key={idx}>
+                        {line}
+                        <br />
+                      </span>
+                    ))}
+                  </p>
                 </CardContent>
               </Card>
             ))

@@ -11,6 +11,12 @@ const books = [
     description: "A groundbreaking exploration of the connection between addiction, depression, and the brain's ability to find pleasure in everyday life."
   },
   {
+    link: '/books/fightright',
+    title: "Fight Right",
+    author: "Dr John Gottman and Dr Julie Schwartz Gottman",
+    description: "A practical guide to navigating conflict in relationships, offering strategies for effective communication and resolution."
+  },
+  {
     link: '/books/hiddenpotential',
     title: "Hidden Potential",
     author: "Adam Grant",

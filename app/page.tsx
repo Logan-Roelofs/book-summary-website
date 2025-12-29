@@ -17,22 +17,10 @@ const books = [
     description: "A practical guide to navigating conflict in relationships, offering strategies for effective communication and resolution."
   },
   {
-    link: '/books/hiddenpotential',
-    title: "Hidden Potential",
-    author: "Adam Grant",
-    description: "A guide to unlocking the potential of introverts, showing how they can thrive in a world that often favors extroverts."
-  },
-  {
     link: '/books/thecouragetobedisliked',
     title: "The Courage to be Disliked",
     author: "Ichiro Kishimi and Fumitake Koga",
     description: "A Japanese philosophy book that offers a new perspective on life and relationships, based on the teachings of Alfred Adler."
-  },
-  {
-    link: '/books/thelegacyjourney',
-    title: "The Legacy Journey",
-    author: "Dave Ramsey",
-    description: "A guide to building wealth and leaving a legacy, offering practical advice on investing, saving, and giving."
   },
   {
     link: '/books/theinnergameoftennis',

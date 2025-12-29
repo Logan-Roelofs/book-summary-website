@@ -34,6 +34,12 @@ const books = [
     author: "Dave Ramsey",
     description: "A guide to building wealth and leaving a legacy, offering practical advice on investing, saving, and giving."
   },
+  {
+    link: '/books/theinnergameoftennis',
+    title: "The Inner Game of Tennis",
+    author: "Timothy Gallwey",
+    description: "A revolutionary approach to improving performance by quieting the mind, focusing on mental processes over technique, and learning to trust your natural abilities."
+  },
 ]
 
 export default function Home() {
